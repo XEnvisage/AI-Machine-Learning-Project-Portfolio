@@ -1,4 +1,3 @@
-<img width="545" height="343" alt="image" src="https://github.com/user-attachments/assets/61d86f3f-4082-4238-ae7e-16c0ec2fd844" /># Handwritten Digit Recognition with Perceptrons
 
 ## 🎯 Project Overview
 A from-scratch implementation of multi-class perceptron classifiers to recognize handwritten digits from the MNIST dataset.
@@ -19,7 +18,7 @@ git clone https://github.com/XEnvisage/AI-Machine-Learning-Project-Portfolio.git
 cd AI-Machine-Learning-Project-Portfolio/01-perceptron-mnist/
 pip install -r requirements.txt
 jupyter notebook perceptron_mnist.ipynb
-
+```
 <img width="610" height="519" alt="image" src="https://github.com/user-attachments/assets/201ea57c-f852-4175-90d5-743b14cfb106" />
 
 <img width="602" height="593" alt="image" src="https://github.com/user-attachments/assets/c063fb98-d117-4916-a666-f66d3c759d22" />
