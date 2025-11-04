@@ -55,12 +55,16 @@ Welcome to my **AI Machine Learning Project Portfolio**! This repository showcas
 ## 📖 Quick Start
 ### Project 01: Perceptron
 ```python
-# perceptron_mnist.ipynb
-from perceptron import PerceptronClassifier
-clf = PerceptronClassifier(n_classes=10)
-clf.fit(train_images, train_labels)
-acc = clf.score(test_images, test_labels)  # ~85.2%
-clf.plot_confusion_matrix()
+cm = confusion_matrix(y_true, y_pred)
+print("\nConfusion Matrix:")
+print(cm)
+plt.figure(figsize=(8, 6))
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
+            xticklabels=range(10), yticklabels=range(10))
+plt.title('Confusion Matrix')
+plt.xlabel('Predicted Label')
+plt.ylabel('True Label')
+plt.show()
 ```
 
 ### Project 02: Custom NN
